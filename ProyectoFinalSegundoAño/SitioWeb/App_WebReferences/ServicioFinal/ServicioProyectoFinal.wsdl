@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicioProyectoFinal" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+      <xsd:import schemaLocation="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicioProyectoFinal_AltaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaBanco" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_AltaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BajaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaBanco" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BajaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ModificarBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarBanco" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ModificarBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarBanco" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarBancos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarBancos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarBancos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarBancosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_LogueoUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_LogueoUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_AltaUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_AltaUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BajaUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BajaUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ModificarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ModificarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_AltaUsuarioLogueoYBD_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaUsuarioLogueoYBD" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_AltaUsuarioLogueoYBD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaUsuarioLogueoYBDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarAdministradores_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarAdministradores" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarAdministradores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarAdministradoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarJugadasDeJugador_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarJugadasDeJugador" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarJugadasDeJugador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarJugadasDeJugadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_GenerarJugada_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarJugada" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_GenerarJugada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarJugadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarJugada_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarJugada" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarJugada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarJugadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarJugadasPremiadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarJugadasPremiadas" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarJugadasPremiadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarJugadasPremiadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarJugadasPremiadasPorSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarJugadasPremiadasPorSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarJugadasPremiadasPorSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarJugadasPremiadasPorSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_GenerarSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_GenerarSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_RealizarSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:RealizarSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_RealizarSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RealizarSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_BuscarSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarSorteosDisponibles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosDisponibles" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarSorteosDisponibles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosDisponiblesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarSorteosDisponiblesJugador_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosDisponiblesJugador" />
+  </wsdl:message>
+  <wsdl:message name="IServicioProyectoFinal_ListarSorteosDisponiblesJugador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosDisponiblesJugadorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioProyectoFinal">
+    <wsdl:operation name="AltaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/AltaBanco" message="tns:IServicioProyectoFinal_AltaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/AltaBancoResponse" message="tns:IServicioProyectoFinal_AltaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BajaBanco" message="tns:IServicioProyectoFinal_BajaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BajaBancoResponse" message="tns:IServicioProyectoFinal_BajaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ModificarBanco" message="tns:IServicioProyectoFinal_ModificarBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ModificarBancoResponse" message="tns:IServicioProyectoFinal_ModificarBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarBanco" message="tns:IServicioProyectoFinal_BuscarBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarBancoResponse" message="tns:IServicioProyectoFinal_BuscarBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarBancos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarBancos" message="tns:IServicioProyectoFinal_ListarBancos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarBancosResponse" message="tns:IServicioProyectoFinal_ListarBancos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogueoUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/LogueoUsuario" message="tns:IServicioProyectoFinal_LogueoUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/LogueoUsuarioResponse" message="tns:IServicioProyectoFinal_LogueoUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarUsuario" message="tns:IServicioProyectoFinal_BuscarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarUsuarioResponse" message="tns:IServicioProyectoFinal_BuscarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/AltaUsuario" message="tns:IServicioProyectoFinal_AltaUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/AltaUsuarioResponse" message="tns:IServicioProyectoFinal_AltaUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BajaUsuario" message="tns:IServicioProyectoFinal_BajaUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BajaUsuarioResponse" message="tns:IServicioProyectoFinal_BajaUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ModificarUsuario" message="tns:IServicioProyectoFinal_ModificarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ModificarUsuarioResponse" message="tns:IServicioProyectoFinal_ModificarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaUsuarioLogueoYBD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/AltaUsuarioLogueoYBD" message="tns:IServicioProyectoFinal_AltaUsuarioLogueoYBD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/AltaUsuarioLogueoYBDResponse" message="tns:IServicioProyectoFinal_AltaUsuarioLogueoYBD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarAdministradores">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarAdministradores" message="tns:IServicioProyectoFinal_ListarAdministradores_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarAdministradoresResponse" message="tns:IServicioProyectoFinal_ListarAdministradores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarJugadasDeJugador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarJugadasDeJugador" message="tns:IServicioProyectoFinal_ListarJugadasDeJugador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarJugadasDeJugadorResponse" message="tns:IServicioProyectoFinal_ListarJugadasDeJugador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarJugada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/GenerarJugada" message="tns:IServicioProyectoFinal_GenerarJugada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/GenerarJugadaResponse" message="tns:IServicioProyectoFinal_GenerarJugada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarJugada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarJugada" message="tns:IServicioProyectoFinal_BuscarJugada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarJugadaResponse" message="tns:IServicioProyectoFinal_BuscarJugada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarJugadasPremiadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarJugadasPremiadas" message="tns:IServicioProyectoFinal_ListarJugadasPremiadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarJugadasPremiadasResponse" message="tns:IServicioProyectoFinal_ListarJugadasPremiadas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarJugadasPremiadasPorSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarJugadasPremiadasPorSorteo" message="tns:IServicioProyectoFinal_ListarJugadasPremiadasPorSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarJugadasPremiadasPorSorteoResponse" message="tns:IServicioProyectoFinal_ListarJugadasPremiadasPorSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/GenerarSorteo" message="tns:IServicioProyectoFinal_GenerarSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/GenerarSorteoResponse" message="tns:IServicioProyectoFinal_GenerarSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RealizarSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/RealizarSorteo" message="tns:IServicioProyectoFinal_RealizarSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/RealizarSorteoResponse" message="tns:IServicioProyectoFinal_RealizarSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarSorteo" message="tns:IServicioProyectoFinal_BuscarSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/BuscarSorteoResponse" message="tns:IServicioProyectoFinal_BuscarSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteosDisponibles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarSorteosDisponibles" message="tns:IServicioProyectoFinal_ListarSorteosDisponibles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarSorteosDisponiblesResponse" message="tns:IServicioProyectoFinal_ListarSorteosDisponibles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteosDisponiblesJugador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarSorteosDisponiblesJugador" message="tns:IServicioProyectoFinal_ListarSorteosDisponiblesJugador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioProyectoFinal/ListarSorteosDisponiblesJugadorResponse" message="tns:IServicioProyectoFinal_ListarSorteosDisponiblesJugador_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicioProyectoFinal" type="tns:IServicioProyectoFinal">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AltaBanco">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/AltaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaBanco">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/BajaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarBanco">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ModificarBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarBanco">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/BuscarBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarBancos">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarBancos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/LogueoUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/BuscarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/AltaUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/BajaUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ModificarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaUsuarioLogueoYBD">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/AltaUsuarioLogueoYBD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarAdministradores">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarAdministradores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarJugadasDeJugador">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarJugadasDeJugador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarJugada">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/GenerarJugada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarJugada">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/BuscarJugada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarJugadasPremiadas">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarJugadasPremiadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarJugadasPremiadasPorSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarJugadasPremiadasPorSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/GenerarSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RealizarSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/RealizarSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/BuscarSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteosDisponibles">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarSorteosDisponibles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteosDisponiblesJugador">
+      <soap:operation soapAction="http://tempuri.org/IServicioProyectoFinal/ListarSorteosDisponiblesJugador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioProyectoFinal">
+    <wsdl:port name="BasicHttpBinding_IServicioProyectoFinal" binding="tns:BasicHttpBinding_IServicioProyectoFinal">
+      <soap:address location="http://localhost:24939/ServicioProyectoFinal.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

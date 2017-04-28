@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Banco">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rut" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Banco" nillable="true" type="tns:Banco" />
+  <xs:complexType name="ArrayOfBanco">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Banco" nillable="true" type="tns:Banco" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBanco" nillable="true" type="tns:ArrayOfBanco" />
+  <xs:complexType name="Usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Contrasenia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Documento" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreCompleto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NombreLogueo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Usuario" nillable="true" type="tns:Usuario" />
+  <xs:complexType name="Jugador">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Usuario">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="NombreBanco" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NumeroCuenta" type="xs:int" />
+          <xs:element minOccurs="0" name="UnAdmin" nillable="true" type="tns:Administrador" />
+          <xs:element minOccurs="0" name="UnBanco" nillable="true" type="tns:Banco" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Jugador" nillable="true" type="tns:Jugador" />
+  <xs:complexType name="Administrador">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Usuario">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="EjecutaSoteos" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Administrador" nillable="true" type="tns:Administrador" />
+  <xs:complexType name="ArrayOfAdministrador">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Administrador" nillable="true" type="tns:Administrador" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdministrador" nillable="true" type="tns:ArrayOfAdministrador" />
+  <xs:complexType name="ArrayOfJugada">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Jugada" nillable="true" type="tns:Jugada" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJugada" nillable="true" type="tns:ArrayOfJugada" />
+  <xs:complexType name="Jugada">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ElJugador" type="xs:int" />
+      <xs:element minOccurs="0" name="FechaHora" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaHoraSorteo" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Jugador" nillable="true" type="tns:Jugador" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NumerosJugados" nillable="true" type="q1:ArrayOfint" />
+      <xs:element minOccurs="0" name="unSorteo" nillable="true" type="tns:Sorteo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Jugada" nillable="true" type="tns:Jugada" />
+  <xs:complexType name="Sorteo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FechaHora" type="xs:dateTime" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="NumerosSorteados" nillable="true" type="q2:ArrayOfint" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Sorteo" nillable="true" type="tns:Sorteo" />
+  <xs:complexType name="ArrayOfSorteo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Sorteo" nillable="true" type="tns:Sorteo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSorteo" nillable="true" type="tns:ArrayOfSorteo" />
+</xs:schema>

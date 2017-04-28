@@ -1,0 +1,98 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPageGeneral, App_Web_1igwfmhs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head" runat="server">
+    <title></title>
+   <link href="Estilos.css" title="Estilos" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div id="Cabecera">               
+            <br />
+
+                <div id="nombreUsuario">
+                    <asp:Panel ID="Panel1" runat="server" Height="81px" 
+                            BackImageUrl="~/Resources/usuario.png" Width="197px">
+                            <br />
+                            <br />
+                            <strong><span class="style1">Bienvenid@</span></strong><br />
+                            <asp:Label ID="lblUsuario" runat="server" 
+                                Font-Bold="True" Font-Overline="False" Font-Size="Medium"></asp:Label>
+                            <br />
+                    </asp:Panel>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img class="Logo" src="Resources/Logo.png"/>
+
+            <br />             
+        </div>
+
+     <div id="menu">
+         <table id="Tabla">
+             <tr>
+                 <td class="style3">
+                    <asp:Menu ID="Menu0" runat="server" CssClass="estilomenu" ForeColor="#CCCCCC" Orientation="Horizontal" StaticSubMenuIndent="16px">
+                         <Items>
+                             <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Logueo" Value="logueo"></asp:MenuItem>
+                             <asp:MenuItem NavigateUrl="~/RegistroJugador.aspx" Text="Registrarse" Value="registrarse"></asp:MenuItem>
+                         </Items>
+                     </asp:Menu>
+                     <asp:Menu ID="Menu1" runat="server" CssClass="estilomenu" ForeColor="#CCCCCC" Orientation="Horizontal" StaticSubMenuIndent="16px">
+                         <Items>
+                             <asp:MenuItem NavigateUrl="~/GenerarJugada.aspx" Text="Realizar Jugada" Value="generarJugada"></asp:MenuItem>
+                             <asp:MenuItem NavigateUrl="~/ListarSorteosParticipados.aspx" Text="Listar Sorteos Participados" Value="ListadoSorteos"></asp:MenuItem>
+                             <asp:MenuItem NavigateUrl="~/HistoricoJugadasPremiadas.aspx" Text="Histórico Jugadas Premiadas" Value="historicoJugadasPremiadas"></asp:MenuItem>
+                             <asp:MenuItem NavigateUrl="~/DatosJugador.aspx" Text="Datos Personales" Value="datosJugador"></asp:MenuItem>
+                         </Items>
+                     </asp:Menu>
+                 </td>
+                 <td style="text-align: right">
+                     <asp:Button ID="btnDesloguearse" runat="server" Text="Desloguearse" 
+                         onclick="btnDesloguearse_Click" />
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;
+                 </td>
+             </tr>         
+         </table>
+
+     </div>
+
+     <div id="Contenido">
+            <asp:ContentPlaceHolder id="cphContenido" runat="server">
+            </asp:ContentPlaceHolder>
+          </div>
+
+     <div id="Pie">
+                <center>
+                    <br />
+                    <span class="style2">
+                        <span class="style1">
+                            <strong>Proyecto Final -&nbsp; Segundo Año - Analista de Sistemas&nbsp; </strong>
+                        </span>
+                    </span>
+                
+                    <strong><br class="style1" />
+                    </strong><span class="style1"><strong>Darío Stramil - Marcelo Mesa - Sebastián Ualde</strong></span><br 
+                        class="style2" />
+                                    
+                    <strong><br class="style2" /></strong>
+                </center>
+            </div>
+
+
+
+    </form>
+
+    
+</body>
+</html>

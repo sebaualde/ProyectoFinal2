@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19DD8512-AD01-4D4D-B8AE-CD48A94650A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AplicacionEscritorio</RootNamespace>
+    <AssemblyName>AplicacionEscritorio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABMAdministradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMAdministradores.Designer.cs">
+      <DependentUpon>ABMAdministradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABMBancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMBancos.Designer.cs">
+      <DependentUpon>ABMBancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneracionDeSorteos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneracionDeSorteos.Designer.cs">
+      <DependentUpon>GeneracionDeSorteos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logueo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logueo.Designer.cs">
+      <DependentUpon>Logueo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealizacionDeSorteos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizacionDeSorteos.Designer.cs">
+      <DependentUpon>RealizacionDeSorteos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroJugadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroJugadores.Designer.cs">
+      <DependentUpon>RegistroJugadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServicioFinal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosDeBaseDeDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuariosDeBaseDeDatos.Designer.cs">
+      <DependentUpon>UsuariosDeBaseDeDatos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ABMBancos.resx">
+      <DependentUpon>ABMBancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logueo.resx">
+      <DependentUpon>Logueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegistroJugadores.resx">
+      <DependentUpon>RegistroJugadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuariosDeBaseDeDatos.resx">
+      <DependentUpon>UsuariosDeBaseDeDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\ControlesWindow.ServicioFinal.Administrador.datasource" />
+    <None Include="Properties\DataSources\ControlesWindow.ServicioFinal.Banco.datasource" />
+    <None Include="Properties\DataSources\ControlesWindow.ServicioFinal.Jugada.datasource" />
+    <None Include="Properties\DataSources\ControlesWindow.ServicioFinal.Sorteo.datasource" />
+    <None Include="Properties\DataSources\ControlesWindow.ServicioFinal.Usuario.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ServicioFinal\AplicacionEscritorio.ServicioFinal.Administrador.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioFinal\AplicacionEscritorio.ServicioFinal.Banco.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioFinal\AplicacionEscritorio.ServicioFinal.Jugada.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioFinal\AplicacionEscritorio.ServicioFinal.Sorteo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioFinal\AplicacionEscritorio.ServicioFinal.Usuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioFinal\ServicioProyectoFinal.wsdl" />
+    <None Include="Service References\ServicioFinal\ServicioProyectoFinal.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioFinal\ServicioProyectoFinal1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioFinal\ServicioProyectoFinal2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioFinal\ServicioProyectoFinal3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayuda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reiniciar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlesWindows\ControlesWindows.csproj">
+      <Project>{5FB677C4-D736-44EF-BF78-C019271ABBEC}</Project>
+      <Name>ControlesWindows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicioFinal\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioFinal\ServicioProyectoFinal.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioFinal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioFinal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioFinal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

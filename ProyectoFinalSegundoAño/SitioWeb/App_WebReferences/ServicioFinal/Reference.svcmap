@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d4520057-5f3d-4c66-ad73-b1b070ec693f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:24939/ServicioProyectoFinal.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioProyectoFinal.wsdl" MetadataType="Wsdl" ID="efcf8196-2d5e-4a5a-aa53-e8f4091c348f" SourceId="1" SourceUrl="http://localhost:24939/ServicioProyectoFinal.svc?wsdl" />
+    <MetadataFile FileName="ServicioProyectoFinal.disco" MetadataType="Disco" ID="88e052a0-126e-4c2d-be51-366fc0443c8a" SourceId="1" SourceUrl="http://localhost:24939/ServicioProyectoFinal.svc?disco" />
+    <MetadataFile FileName="ServicioProyectoFinal.xsd" MetadataType="Schema" ID="2496c3b1-ec0e-484f-97bb-fdddb9a563ab" SourceId="1" SourceUrl="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioProyectoFinal1.xsd" MetadataType="Schema" ID="7a32e1ba-885e-40dd-8fb7-1cb23e3f77c7" SourceId="1" SourceUrl="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioProyectoFinal2.xsd" MetadataType="Schema" ID="bce5d17f-f916-4ea1-954e-65aa63d846ac" SourceId="1" SourceUrl="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioProyectoFinal3.xsd" MetadataType="Schema" ID="5fa15a6a-c463-4a2e-a066-b352aed7b655" SourceId="1" SourceUrl="http://localhost:24939/ServicioProyectoFinal.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

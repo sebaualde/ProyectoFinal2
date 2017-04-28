@@ -1,0 +1,82 @@
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Downloads\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Downloads\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Downloads\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Downloads\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Downloads\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño 18.02 17.35\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño 18.02 17.35\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño 18.02 17.35\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\ProyectoFinalSegundoAño 18.02 17.35\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+D:\ProyectoFinal\ProyectoFinalSegundoAño 03-03 00_10\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+D:\ProyectoFinal\ProyectoFinalSegundoAño 03-03 00_10\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+D:\ProyectoFinal\ProyectoFinalSegundoAño 03-03 00_10\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectoFinal\ProyectoFinalSegundoAño 03-03 00_10\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+D:\ProyectoFinal\ProyectoFinalSegundoAño 03-03 00_10\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\COMPLEEETA\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\COMPLEEETA\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\COMPLEEETA\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\COMPLEEETA\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\03 - Para Programar\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\03 - Para Programar\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\03 - Para Programar\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\03 - Para Programar\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sebau\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sebau\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sebau\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sebau\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño 15-03 7-38\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño 15-03 7-38\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño 15-03 7-38\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\TetoX\Desktop\Nueva carpeta\ProyectoFinalSegundoAño 15-03 7-38\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00 - copia\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00 - copia\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00 - copia\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00 - copia\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 03-00 - copia\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 19-10\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 19-10\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 19-10\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 19-10\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinalSegundoAño 16-03 19-10\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\cinta adhesiva\ProyectoFinalSegundoAño 16-03 20-15\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\cinta adhesiva\ProyectoFinalSegundoAño 16-03 20-15\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\cinta adhesiva\ProyectoFinalSegundoAño 16-03 20-15\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\dario\Desktop\cinta adhesiva\ProyectoFinalSegundoAño 16-03 20-15\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\dario\Desktop\cinta adhesiva\ProyectoFinalSegundoAño 16-03 20-15\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+D:\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+D:\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+D:\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+D:\ProyectoFinal-17-3-2015(6.40)\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sebau\Desktop\Seba\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+D:\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+D:\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+D:\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojResolveAssemblyReference.cache
+D:\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+D:\Analista Sistemas\Analista de Sistemas 2do\PROYECTO FINAL 2do\Proyecto Final 2°\ProyectoFinalSegundoAño\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
